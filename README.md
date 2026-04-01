@@ -6,6 +6,16 @@ Teste de velocidade de internet com interface moderna, responsiva e foco em perf
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)
 ![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=node.js)
 ![Express](https://img.shields.io/badge/Express-4-000000?logo=express)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ESModules-F7DF1E?logo=javascript)
+![Axios](https://img.shields.io/badge/Axios-HTTP-5A29E4?logo=axios)
+![CORS](https://img.shields.io/badge/CORS-enabled-blue)
+![Helmet](https://img.shields.io/badge/Security-Helmet-green)
+
+![Status](https://img.shields.io/badge/status-active-success)
+![Project](https://img.shields.io/badge/type-fullstack-purple)
+![Focus](https://img.shields.io/badge/focus-network%20performance-blueviolet)
+
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
