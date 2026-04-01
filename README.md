@@ -1,108 +1,107 @@
-# Speed Test
+# ⚡ Speed Test Web
 
-Teste de velocidade de conexão de internet com interface moderna e responsiva.
+Teste de velocidade de internet com interface moderna, responsiva e foco em performance e diagnóstico de rede.
 
-## Tecnologias
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)
+![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=node.js)
+![Express](https://img.shields.io/badge/Express-4-000000?logo=express)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-### Frontend
-- React 19
-- Vite
-- React Router DOM
-- Axios
-- ESModules
+---
 
-### Backend
-- Node.js
-- Express
-- CORS
-- Helmet
-- ESModules
+## 🧠 Sobre o Projeto
 
-## Instalação
+Aplicação fullstack que simula um sistema de teste de velocidade de internet, medindo:
 
-1. Instale todas as dependências de uma vez:
-```bash
+- 📡 Latência (Ping)
+- 📉 Jitter
+- ⬇️ Download
+- ⬆️ Upload
+- 🌐 IP Local e Público
+
+Com foco em:
+- Redes e infraestrutura
+- Performance de comunicação
+- Arquitetura cliente-servidor
+
+---
+
+## 🖥️ Preview
+
+> Interface inspirada em ferramentas profissionais de teste de rede, com velocímetro animado e feedback em tempo real.
+
+---
+
+## 🛠️ Tecnologias
+
+### 🎨 Frontend
+- ⚛️ React 19
+- ⚡ Vite
+- 🌐 React Router DOM
+- 📡 Axios
+- 🧩 ESModules
+
+### 🔧 Backend
+- 🟢 Node.js
+- 🚀 Express
+- 🔐 CORS
+- 🛡️ Helmet
+- 🧩 ESModules
+
+---
+
+## 📦 Instalação, Configuração e Execução
+
+# =========================
+# INSTALAÇÃO (TUDO DE UMA VEZ)
+# =========================
 npm run install-all
-```
 
-Ou instale separadamente:
+# =========================
+# CONFIGURAÇÃO
+# =========================
 
-2. Instale dependências do backend:
-```bash
-cd server
-npm install
-```
-
-3. Instale dependências do frontend:
-```bash
-cd client
-npm install
-```
-
-## Configuração
-
-1. Copie o arquivo de ambiente do backend:
-```bash
-cd server
+cd ../server
 cp .env.example .env
-```
 
-2. Configure as variáveis de ambiente no arquivo `.env` do servidor.
+# (edite o arquivo .env conforme necessário)
 
-## Executando o Projeto
+🌐 Endpoints
 
-### Opção 1: Rodar ambos os projetos simultaneamente
-```bash
-npm run dev
-```
+| Serviço      | URL                                                                  |
+| ------------ | -------------------------------------------------------------------- |
+| Frontend     | [http://localhost:5173](http://localhost:5173)                       |
+| Backend API  | [http://localhost:3001](http://localhost:3001)                       |
+| Health Check | [http://localhost:3001/api/health](http://localhost:3001/api/health) |
 
-### Opção 2: Rodar separadamente
 
-Backend:
-```bash
-npm run server
-```
+📜 Scripts
+npm run dev           # roda frontend + backend
+npm run server        # backend
+npm run client        # frontend
+npm run build         # build produção
+npm run start         # backend produção
+npm run install-all   # instala tudo
 
-Frontend (em outro terminal):
-```bash
-npm run client
-```
+🚀 Funcionalidades
+⚡ Teste de velocidade de download
+🚀 Teste de velocidade de upload
+📡 Medição de ping e jitter
+🌐 Detecção de IP local e público
+🎯 Interface moderna e responsiva
+✨ Animações suaves
+🔄 Conversão automática (MB/s ↔ GB/s)
+🧠 Conceitos Aplicados
 
-### Opção 3: Rodar individualmente
+Este projeto envolve diretamente:
 
-Apenas backend:
-```bash
-cd server
-npm run dev
-```
+🌐 Redes de computadores (latência, throughput)
+🖥️ Infraestrutura (API e fluxo de dados)
+⚙️ Backend (Node.js e streaming)
+🎨 Frontend (UX dinâmica em tempo real)
+💡 Diferencial
 
-Apenas frontend:
-```bash
-cd client
-npm run dev
-```
+Projeto desenvolvido com foco em simular ferramentas reais de diagnóstico de rede, unindo:
 
-## Endpoints
-
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:3001
-- Health Check: http://localhost:3001/api/health
-
-## Scripts Disponíveis
-
-- `npm run dev` - Roda ambos frontend e backend simultaneamente
-- `npm run server` - Roda apenas o backend em modo desenvolvimento
-- `npm run client` - Roda apenas o frontend em modo desenvolvimento
-- `npm run build` - Build do frontend para produção
-- `npm run start` - Inicia o servidor backend em modo produção
-- `npm run install-all` - Instala dependências de todos os projetos
-
-## Funcionalidades
-
-- Teste de velocidade de download
-- Teste de velocidade de upload
-- Medição de ping e jitter
-- Detecção de IP local e público
-- Interface responsiva e moderna
-- Animações suaves
-- Conversão automática MB/s ↔ GB/s
+👉 programação + redes + experiência do usuário
