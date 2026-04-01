@@ -53,14 +53,13 @@ Com foco em:
 
 ## 📦 Instalação, Configuração e Execução
 
-# =========================
-# INSTALAÇÃO (TUDO DE UMA VEZ)
-# =========================
+ =========================
+ INSTALAÇÃO (TUDO DE UMA VEZ):
+ 
 npm run install-all
 
-# =========================
-# CONFIGURAÇÃO
-# =========================
+ =========================
+ CONFIGURAÇÃO: 
 
 cd ../server
 cp .env.example .env
